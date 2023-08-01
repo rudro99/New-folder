@@ -8,7 +8,7 @@ string encrypt(string plain, vector<int> k)
 	int col = nk;
 
 	char mat[row][col];
-    for(int i=0, l=0; i<row; i++){
+    for(int i=0, l=0; i<row; i++){ 
         for(int j=0; j<col; j++){
 
             if(plain[l] == '\0'){   // l diye string take traverse kortachi, eita string er jonno newa counter

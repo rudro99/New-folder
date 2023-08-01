@@ -7,7 +7,7 @@ int modInv(int a) {
         if ((a*i) % 26 == 1)
             return i;
     }
-    return -1;
+    return -1; 
 }
 int det(int mat[2][2])
 {

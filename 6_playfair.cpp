@@ -4,7 +4,7 @@ using namespace std;
 void findPos(char mat[5][5], char ch, int &row, int &col){
 
     if(ch == 'J')
-        ch = 'I';
+        ch = 'I'; 
     for(row=0; row<5; row++){
         for(col=0; col<5; col++){
             if(mat[row][col] == ch)

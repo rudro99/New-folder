@@ -3,7 +3,7 @@ using namespace std;
 
 map<char,char> encMap,decMap;
 string en(string s)
-{
+{ 
     string cipher="";
     int n=s.length();
     for(int i=0;i<n;i++)

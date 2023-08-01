@@ -8,7 +8,7 @@ string encrypt(string plain, vector<int> k)
     int nk = k.size(), n = plain.size();
     char bogchar = 'z';
 
-    if(bognum == -1){
+    if(bognum == -1){ 
 
         bognum = nk - (n % nk);
         for(int i=0; i<bognum; i++)

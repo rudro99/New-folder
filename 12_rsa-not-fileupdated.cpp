@@ -9,7 +9,7 @@ int n;
 bool isPrime(int p)
 {
     if (p <= 1)
-        return false;
+        return false; 
 
     for (int i = 2; i <= p / 2; i++)
         if (p % i == 0)

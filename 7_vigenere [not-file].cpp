@@ -5,7 +5,7 @@ string encrypt(string plain, string key)
 {
     int n = plain.size(), nk = key.size();
 
-    int kstream[n];
+    int kstream[n]; 
     for(int i=0, j=0; i<n; i++, j++){
 
         if(j == nk)

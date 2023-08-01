@@ -2,7 +2,7 @@
 using namespace std;
 
 string en(string s,int k)
-{
+{ 
     int n=s.length();
     for(int i=0;i<n;i++)
     {

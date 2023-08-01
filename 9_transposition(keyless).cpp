@@ -3,7 +3,7 @@ using namespace std;
 
 string encrypt(string plain)
 {
-	string cipher = "";
+	string cipher = ""; 
 
 
 	for(int i=0; i<plain.size(); i+=2)

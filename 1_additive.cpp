@@ -6,7 +6,7 @@ string encryption(string s,int k)
     int n=s.length();
     for(int i=0;i<n;i++)
     {
-        s[i]=(s[i]-'a'+k)%26+'A';
+        s[i]=(s[i]-'a'+k)%26+'A'; 
     }
     return s;
 }

@@ -5,7 +5,7 @@ int modInv(int a) {
     a = a % 26;
     for (int i = 1; i < 26; i++) {
         if ((a*i) % 26 == 1)
-            return i;
+            return i; 
     }
     return -1;
 }
